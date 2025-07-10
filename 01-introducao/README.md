@@ -4,6 +4,6 @@ A história das linguagens de programação remonta aos primeiros computadores m
 
 ## Linha do Tempos das Linguagens de Programação
 
-![](Fundamentos-Linguagens-UFC/01-introducao/images/linhadotempo1.jpg)
+![](images/linha-do-tempo1.jpg)
 
 
