@@ -9,9 +9,9 @@ A história das linguagens de programação remonta aos primeiros computadores m
 
 
 ### Antes da década de 40
-Em 1801, o **Tear de Jacquard**, criado por **Joseph-Marie Jacquard**, revolucionou a automatização ao usar cartões perfurados para controlar padrões de tecelagem. Essa inovação foi a primeira a armazenar instruções mecânicas de forma programável, inspirando futuras máquinas computacionais.
+- Em 1801, o **Tear de Jacquard**, criado por **Joseph-Marie Jacquard**, revolucionou a automatização ao usar cartões perfurados para controlar padrões de tecelagem. Essa inovação foi a primeira a armazenar instruções mecânicas de forma programável, inspirando futuras máquinas computacionais.
 
-Entre 1822 e 1837, **Charles Babbage** projetou a **Máquina Diferencial**, um avanço para cálculos matemáticos complexos. Embora nunca concluída, sua ideia pioneira introduziu conceitos como operações automatizadas e preparou o terreno para a Máquina Analítica (considerada o primeiro projeto de computador mecânico programável).
+- Entre 1822 e 1837, **Charles Babbage** projetou a **Máquina Diferencial**, um avanço para cálculos matemáticos complexos. Embora nunca concluída, sua ideia pioneira introduziu conceitos como operações automatizadas e preparou o terreno para a Máquina Analítica (considerada o primeiro projeto de computador mecânico programável).
 
 Em 1842, **Ada Lovelace** deu um passo revolucionário ao publicar notas sobre a Máquina Analítica de Babbage, incluindo um algoritmo para calcular números de Bernoulli. Esse trabalho, reconhecido como o primeiro programa de computador da história, não apenas demonstrou o potencial das máquinas para ir além de cálculos numéricos, mas também estabeleceu Ada como a **primeira programadora**, antevendo conceitos como loops e operações condicionais décadas antes dos computadores modernos.
 
