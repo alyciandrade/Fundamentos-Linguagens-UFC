@@ -4,7 +4,7 @@ A história das linguagens de programação remonta aos primeiros computadores m
 
 ## Linha do Tempos das Linguagens de Programação
 
-![](images/image2.jpg)
+![](images/image1.jpg)
 
 
 
