@@ -13,6 +13,8 @@ Em 1801, o **Tear de Jacquard**, criado por **Joseph-Marie Jacquard**, revolucio
 
 Entre 1822 e 1837, **Charles Babbage** projetou a **Máquina Diferencial**, um avanço para cálculos matemáticos complexos. Embora nunca concluída, sua ideia pioneira introduziu conceitos como operações automatizadas e preparou o terreno para a Máquina Analítica (considerada o primeiro projeto de computador mecânico programável).
 
+Em 1842, **Ada Lovelace** deu um passo revolucionário ao publicar notas sobre a Máquina Analítica de Babbage, incluindo um algoritmo para calcular números de Bernoulli. Esse trabalho, reconhecido como o primeiro programa de computador da história, não apenas demonstrou o potencial das máquinas para ir além de cálculos numéricos, mas também estabeleceu Ada como a **primeira programadora**, antevendo conceitos como loops e operações condicionais décadas antes dos computadores modernos.
+
 Em 1936, **Alan Turing** formalizou a **Máquina de Turing**, um modelo teórico que definiu os fundamentos da computação moderna. Seu conceito de "máquina universal" provou que qualquer algoritmo poderia ser processado com um sistema de regras simples, estabelecendo as bases para as linguagens de programação e a ciência da computação.
 
 
