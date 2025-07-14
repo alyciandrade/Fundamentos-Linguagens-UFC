@@ -34,3 +34,13 @@
     } senão {
     exibir(y);
     } 
+
+#### Equivalente em Python:
+
+      x = 10
+      y = x + 5
+
+      if x > y:
+       print(x)
+      else:
+       print(y)
