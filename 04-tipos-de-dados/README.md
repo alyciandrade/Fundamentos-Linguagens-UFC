@@ -19,16 +19,21 @@
 ## 2. Exemplos Comentados por Linguagem
 
 ### **Python** (Tipagem Dinâmica)
-```python
-# Inteiro
-idade = 30  
-# Float
-preco = 19.99  
-# String
-nome = "Alice"  
-# Booleano
-ativo = True  
-# Lista (mutável)
-numeros = [1, 2, 3]  
-# None (equivalente a nulo)
-valor = None
+
+     idade = 30  # Inteiro
+     preco = 19.99  # Float
+     nome = "Alice"   # String
+     ativo = True  # Booleano
+     numeros = [1, 2, 3]   # Lista (mutável)
+     valor = None # None (equivalente a nulo)
+
+### **C** 
+
+     int a = 42;         // int
+     float b = 3.14f;    // float
+     char c[] = "C";     // string
+     bool d = true;      // bool (C99+)
+     int *e = NULL;      // ponteiro nulo
+     printf("%d", a);    // 42
+
+
