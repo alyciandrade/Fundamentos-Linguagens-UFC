@@ -1,8 +1,8 @@
-### Descrições Sintáticas e Semânticas 
+# Descrições Sintáticas e Semânticas 
 
 ## Linguagem Fictícia: AlyCode
 
-# 1. Gramática em Pseudocódigo (BNF Simplificado)
+### 1. Gramática em Pseudocódigo (BNF Simplificado)
 
     <programa>      ::= <declaração>+
     <declaração>    ::= <atribuição> | <condicional> | <repetição> | <saída>
@@ -13,7 +13,7 @@
     <repetição>     ::= 'enquanto' '(' <expressão> ')' '{' <declaração>+ '}'
     <saída>         ::= 'exibir' '(' <expressão> ')' ';'
 
-# 2. Análise Léxica/Sintática
+### 2. Análise Léxica/Sintática
 
 | Token         | Classificação     | Regra        |
 |---------------|-------------------|--------------|
