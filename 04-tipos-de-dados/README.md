@@ -21,19 +21,14 @@
 ### **Python** (Tipagem Dinâmica)
 ```python
 # Inteiro
-idade = 30  # int
-
+idade = 30  
 # Float
-preco = 19.99  # float
-
+preco = 19.99  
 # String
-nome = "Alice"  # str
-
+nome = "Alice"  
 # Booleano
-ativo = True  # bool
-
+ativo = True  
 # Lista (mutável)
-numeros = [1, 2, 3]  # list
-
+numeros = [1, 2, 3]  
 # None (equivalente a nulo)
 valor = None
