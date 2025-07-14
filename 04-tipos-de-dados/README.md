@@ -10,7 +10,7 @@
 | Ponto Flutuante| `float`         | `float`/`double`| `number`        |
 | Caractere      | `str` (1 char)  | `char`          | `string`        |
 | String         | `str`           | `char[]`        | `string`        |
-| Booleano       | `bool`          | `_Bool` (C99)   | `boolean`       |
+| Booleano       | `bool`          | `_Bool`         | `boolean`       |
 | Array/Lista    | `list`          | `array[]`       | `Array`         |
 | Nulo           | `None`          | `NULL`          | `null`/`undefined` |
 
@@ -18,7 +18,7 @@
 
 ## 2. Exemplos Comentados por Linguagem
 
-### **Python** (Tipagem Dinâmica/Forte)
+### **Python** (Tipagem Dinâmica)
 ```python
 # Inteiro
 idade = 30  # int
