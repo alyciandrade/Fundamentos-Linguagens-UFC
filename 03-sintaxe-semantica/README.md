@@ -1,6 +1,6 @@
 # Descrições Sintáticas e Semânticas 
 
-## Linguagem Fictícia: AlyCode
+## Linguagem Fictícia: SimpleCode
 
 ### 1. Gramática em Pseudocódigo (BNF Simplificado)
 
@@ -21,3 +21,16 @@
 | `=`           | OPERADOR          | `=`          |
 | `10`          | NÚMERO            | `[0-9]+`     |
 | `;`           | DELIMITADOR       | `;`          |
+
+### 3. Exemplos
+
+#### SimpleCode:
+
+    x = 10;
+    y = x + 5;
+
+    se (x > y) {
+     exibir(x);
+    } senão {
+    exibir(y);
+    } 
