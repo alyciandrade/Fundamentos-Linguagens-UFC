@@ -18,7 +18,7 @@
 
 ## 2. Exemplos Comentados por Linguagem
 
-### **Python** (Tipagem Dinâmica)
+### **Python** 
 
      idade = 30  # Inteiro
      preco = 19.99  # Float
@@ -36,4 +36,11 @@
      int *e = NULL;      // ponteiro nulo
      printf("%d", a);    // 42
 
+### **JavaScript**
 
+     let a = 42;         // number
+     let b = 3.14;       // number
+     let c = "JS";       // string
+     let d = true;       // boolean
+     let e = null;       // null
+     console.log(typeof a, a);  // "number" 42
