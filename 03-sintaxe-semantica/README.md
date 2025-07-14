@@ -12,10 +12,11 @@
 <repetição>  ::= 'enquanto' '(' <expressão> ')' '{' <declaração>+ '}'
 <saída>      ::= 'exibir' '(' <expressão> ')' ';'
 
-# 2. Análise Léxica/Sintática:
-**Token**	        **Classificação**	         **Regra**
-  x	                IDENTIFICADOR	             [a-z]+
-  =	                   OPERADOR	                 =
-  10	                  NÚMERO	               [0-9]+
-  ;	                 DELIMITADOR	               ;
+# 2. Análise Léxica/Sintática
 
+| Token       | Classificação     | Regra        |
+|-------------|-------------------|--------------|
+| `x`         | IDENTIFICADOR     | `[a-z]+`     |
+| `=`         | OPERADOR          | `=`          |
+| `10`        | NÚMERO            | `[0-9]+`     |
+| `;`         | DELIMITADOR       | `;`          |
