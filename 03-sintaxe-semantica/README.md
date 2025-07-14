@@ -4,7 +4,9 @@
 
 # 1. Gramática em Pseudocódigo (BNF Simplificado)
 
-```text
+# 1. Gramática em Pseudocódigo (BNF Simplificado)
+
+``bnf
 <programa>   ::= <declaração>+
 <declaração> ::= <atribuição> | <condicional> | <repetição> | <saída>
 <atribuição> ::= IDENTIFICADOR '=' <expressão> ';'
@@ -12,7 +14,7 @@
 <termo>      ::= IDENTIFICADOR | NÚMERO
 <condicional> ::= 'se' '(' <expressão> ')' '{' <declaração>+ '}' ('senão' '{' <declaração>+ '}')?
 <repetição>  ::= 'enquanto' '(' <expressão> ')' '{' <declaração>+ '}'
-<saída>      ::= 'exibir' '(' <expressão> ')' ';' 
+<saída>      ::= 'exibir' '(' <expressão> ')' ';'``
 
 # 2. Análise Léxica/Sintática
 
