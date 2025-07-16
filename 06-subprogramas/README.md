@@ -8,6 +8,30 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 ---
 
 ## Função em C 
-- A função que recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
+- A função recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
 
-  #### Parâmetros por Valor
+  #### Parâmetros por Valor:
+
+       #include <stdio.h>
+
+         int soma(int n){
+ 
+         int i, soma = 0;
+ 
+           for(i = 1; i <= n; i++){
+              soma += i;
+           }
+           return soma;
+        }
+ 
+          int main()
+       {
+         int numero;
+ 
+         printf("Digite um numero:\n");
+         scanf("%i", &numero);
+ 
+         printf("Soma e %i \n", soma(numero));
+ 
+         return 0;
+          }
