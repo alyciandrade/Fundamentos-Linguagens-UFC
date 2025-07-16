@@ -9,7 +9,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
 ## Função em C 
 
-  #### Parâmetros por Valor
+#### Parâmetros por Valor
 - A função recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
 
        #include <stdio.h>
@@ -35,3 +35,27 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
         return 0;
        }
+
+#### Parâmetros por Referência
+- A função abaixo recebe um número e dobra o valor, modificando a variável original:
+
+      #include <stdio.h>
+
+          void dobrarValor(int *valorPtr) {
+          *valorPtr = *valorPtr * 2;
+          printf("Dentro da funcao 'dobrarValor': O valor agora é %d\n", *valorPtr);
+          }
+
+          int main() {
+          int meuNumero; // Declara a variável, mas NÃO a inicializa ainda
+
+          printf("Digite um numero inteiro: "); 
+          scanf("%d", &meuNumero); 
+          printf("Antes de chamar a funcao: meuNumero = %d\n", meuNumero);
+
+          dobrarValor(&meuNumero); 
+
+          printf("Depois de chamar a funcao: meuNumero = %d\n", meuNumero);
+
+          return 0;
+          }
