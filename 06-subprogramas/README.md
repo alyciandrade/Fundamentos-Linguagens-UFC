@@ -6,3 +6,8 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 - Passagem de parâmetros por **referência**: Na passagem por referência, em vez de uma cópia do valor, o que é enviado para a função é a localização de memória (o "endereço") da variável original. Quaisquer modificações feitas dentro da função afetam diretamente a variável original fora da função.
 
 ---
+
+## Função em C 
+- A função que recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
+
+  #### Parâmetros por Valor
