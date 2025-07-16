@@ -47,7 +47,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
           }
 
           int main() {
-          int meuNumero; // Declara a variável, mas NÃO a inicializa ainda
+          int meuNumero; 
 
           printf("Digite um numero inteiro: "); 
           scanf("%d", &meuNumero); 
