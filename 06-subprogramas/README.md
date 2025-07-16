@@ -87,8 +87,8 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
        }
 
        let minhaLista = ["Maçã", "Banana"];
-       console.log("Antes de chamar a função 'adicionarItem':", minhaLista); 
+       console.log("Antes de chamar a função 'adicionarItem':", minhaLista); // ["Maçã", "Banana"]
 
        adicionarItem(minhaLista); 
 
-       console.log("Depois de chamar a função 'adicionarItem':", minhaLista); 
+       console.log("Depois de chamar a função 'adicionarItem':", minhaLista);  // Saída -> ["Maçã", "Banana", "Uva"]
