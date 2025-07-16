@@ -59,3 +59,36 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
           return 0;
           }
+
+  ---
+## Função em JavaScript
+  
+#### Parâmetros por Valor
+  - O código abaixo demonstra que, ao passar um número para uma função, apenas uma cópia do valor é utilizada. Assim, mesmo que a função dobre esse valor internamente, a variável original permanece inalterada:
+
+         function alterarNumero(num) {
+           num = num * 2; 
+         console.log("Dentro da função 'alterarNumero':", num);
+         }
+
+         let meuNumero = 10;
+         console.log("Antes de chamar a função 'alterarNumero':", meuNumero);
+
+         alterarNumero(meuNumero);
+
+         console.log("Depois de chamar a função 'alterarNumero':", meuNumero);
+
+#### Parâmetros por Referência
+- Neste exemplo, 'adicionarItem' recebe a referência para o array 'minhaLista'. Alterações dentro da função afetam o array original:
+
+       function adicionarItem(lista) {
+         lista.push("Uva"); 
+       console.log("Dentro da função 'adicionarItem':", lista); 
+       }
+
+       let minhaLista = ["Maçã", "Banana"];
+       console.log("Antes de chamar a função 'adicionarItem':", minhaLista); 
+
+       adicionarItem(minhaLista); 
+
+       console.log("Depois de chamar a função 'adicionarItem':", minhaLista); 
