@@ -8,9 +8,9 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 ---
 
 ## Função em C 
-- A função recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
 
-  #### Parâmetros por Valor:
+  #### Parâmetros por Valor
+- A função recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
 
        #include <stdio.h>
 
