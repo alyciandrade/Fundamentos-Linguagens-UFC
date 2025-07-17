@@ -41,5 +41,7 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun�
 
 ![](Pilha1.png)
 ![](Pilha2.png)
+Ao final, a pilha está vazia e o valor 24 é o resultado do fatorial(4).
 
-**Conclusão**: Ao final, a pilha está vazia e o valor 24 é o resultado do fatorial(4).
+---
+**Conclusão**: Na recursão, cada chamada da função cria um novo "bloco" na pilha. Quando a condição de parada é atingida, as funções começam a desempilhar na ordem inversa em que foram chamadas, e os resultados são calculados à medida que cada função retorna. 
