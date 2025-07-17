@@ -32,10 +32,10 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun�
     Chamada de fatorial(1)
     Chamada de fatorial(0)
     Base case: fatorial(0) retorna 1
-    Retornando de fatorial(1): 1 * 1.0 = 1
-    Retornando de fatorial(2): 2 * 1.0 = 2
-    Retornando de fatorial(3): 3 * 2.0 = 6
-    Retornando de fatorial(4): 4 * 6.0 = 24
+    Retornando de fatorial(1): 1 * 1 = 1
+    Retornando de fatorial(2): 2 * 1 = 2
+    Retornando de fatorial(3): 3 * 2 = 6
+    Retornando de fatorial(4): 4 * 6 = 24
 
 ### Representação gráfica da pilha de chamadas
 
