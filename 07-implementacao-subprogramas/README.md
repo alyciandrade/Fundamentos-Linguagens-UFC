@@ -36,3 +36,6 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun�
     Retornando de fatorial(2): 2 * 1.0 = 2
     Retornando de fatorial(3): 3 * 2.0 = 6
     Retornando de fatorial(4): 4 * 6.0 = 24
+
+### Representação gráfica da pilha de chamadas
+
