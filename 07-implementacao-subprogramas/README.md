@@ -39,3 +39,5 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun�
 
 ### Representação gráfica da pilha de chamadas
 
+![](Pilha1.png)
+![](Pilha2.png)
