@@ -2,6 +2,7 @@
 
 ## Objetivo
 Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de função recursiva e ilustrar como os valores são empilhados e retornados. A função escolhida foi o cálculo fatorial em python.
+
 ---
 
 ### Fatorial.py
