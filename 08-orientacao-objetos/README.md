@@ -8,7 +8,7 @@ Para este desafio, foi implementado, na linguagem Java, uma classe abstrata "Con
 
 #### Cada tipo de conta possui:
 
-**Atributos comuns (definidos em ContaBancaria):**
+Atributos comuns (definidos em ContaBancaria):
 - cliente (String)
 - numConta (int)
 - saldo (double)
