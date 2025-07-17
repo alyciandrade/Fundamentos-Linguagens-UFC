@@ -41,3 +41,5 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun�
 
 ![](Pilha1.png)
 ![](Pilha2.png)
+
+**Conclusão**: Ao final, a pilha está vazia e o valor 24 é o resultado do fatorial(4).
