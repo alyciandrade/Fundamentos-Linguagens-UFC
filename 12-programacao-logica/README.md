@@ -47,3 +47,33 @@ avô(X, Y) :- pai(X, Z), mae(Z, Y).
 avó(X, Y) :- mae(X, Z), pai(Z, Y).
 avó(X, Y) :- mae(X, Z), mae(Z, Y).
 ```
+---
+
+### Exemplos de Consultas
+```prolog
+% Quem são os filhos de joao?
+?- filho(X, joao).
+
+% Quem são os irmãos de maria?
+?- irmao(X, maria).
+
+% Quem é o avô de joana?
+?- avo(X, joana).
+
+% Quem são os filhos de maria?
+?- filho(X, maria).
+```
+---
+
+### Saída Esperada
+```prolog
+?- filho(X, joao).
+X = carlos ;
+X = maria.
+
+?- irmao(X, maria).
+X = carlos.
+
+?- avo(X, joana).
+X = joao.
+```
