@@ -4,8 +4,8 @@
 
 Este exemplo resolve um problema comum: calcular a média das notas acima de 7 de uma lista. Utiliza conceitos de programação funcional como:
 
-- Recursão para somar os elementos da lista
-- Funções de alta ordem: `filter`, `map` e `reduce`
+- Recursão para somar os elementos da lista. Foi usada a função `soma_recursiva` para somar os elementos.
+- Funções de alta ordem: `filter`, `map` e `reduce`. A função `filter()` filtra as notas maiores ou iguais a 7.
 
 ## Código em Python
 
@@ -25,4 +25,10 @@ Este exemplo resolve um problema comum: calcular a média das notas acima de 7 d
 
     print("Notas boas:", notas_boas)
     print("Média das boas notas:", media)
+
+## Saída Esperada
+
+    Notas boas: [8.0, 9.5, 7.0, 10.0]
+    Média das boas notas: 8.625
+
 
