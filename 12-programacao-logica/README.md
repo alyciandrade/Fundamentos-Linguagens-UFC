@@ -76,4 +76,9 @@ X = carlos.
 
 ?- avo(X, joana).
 X = joao.
+
+?- filho(X, maria).
+X = pedro ;
+X = joana.
+
 ```
