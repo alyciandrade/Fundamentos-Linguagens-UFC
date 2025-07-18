@@ -39,7 +39,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
 #### Parâmetros por Referência
 - A função abaixo recebe um número e dobra o valor, modificando a variável original:
-
+```c
       #include <stdio.h>
 
           void dobrarValor(int *valorPtr) {
@@ -60,13 +60,14 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
           return 0;
           }
-
+```
   ---
 ## Função em JavaScript
   
 #### Parâmetros por Valor
   - O código abaixo demonstra que, ao passar um número para uma função, apenas uma cópia do valor é utilizada. Assim, mesmo que a função dobre esse valor internamente, a variável original permanece inalterada:
 
+```java
          function alterarNumero(num) {
            num = num * 2; 
          console.log("Dentro da função 'alterarNumero':", num);
@@ -78,10 +79,12 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
          alterarNumero(meuNumero);
 
          console.log("Depois de chamar a função 'alterarNumero':", meuNumero);
+```
 
 #### Parâmetros por Referência
 - Neste exemplo, 'adicionarItem' recebe a referência para o array 'minhaLista'. Alterações dentro da função afetam o array original:
 
+```java
        function adicionarItem(lista) {
          lista.push("Uva"); 
        console.log("Dentro da função 'adicionarItem':", lista); 
@@ -93,3 +96,4 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
        adicionarItem(minhaLista); 
 
        console.log("Depois de chamar a função 'adicionarItem':", minhaLista);  // Saída -> ["Maçã", "Banana", "Uva"]
+```
