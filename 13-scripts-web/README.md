@@ -23,4 +23,7 @@ O gerenciador (chamado de CineList) oferece as seguintes operações CRUD (Creat
 
 **Observação**: Como esta é uma SPA simples, os dados são armazenados apenas na memória do navegador e serão perdidos ao fechar ou recarregar a página. Para um projeto mais robusto, seria necessário integrar uma solução de persistência de dados (ex: Local Storage do navegador, ou um backend).
 
+--- 
 
+## Interface
+![](images/cinelist.png)
