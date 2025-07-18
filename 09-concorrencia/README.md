@@ -29,7 +29,7 @@
 ---
 
 ### Implementação:
-No código abaixo, é criado duas threads, uma imprime números pares e a outra, ímpares. Ambas são executadas concorrentemente, ou seja, ao mesmo tempo. A execução pode intercalar a saída no console de forma diferente a cada vez, por causa da concorrência
+No código abaixo, é criado duas threads, uma imprime números pares e a outra, ímpares. Ambas são executadas concorrentemente, ou seja, ao mesmo tempo. A execução pode intercalar a saída no console de forma diferente a cada vez, por causa da concorrência.
 
     public class ConcorrenciaExemplo {
 
@@ -60,7 +60,7 @@ No código abaixo, é criado duas threads, uma imprime números pares e a outra,
 
         pares.start();
         impares.start();
+     }
     }
-}
 
 
