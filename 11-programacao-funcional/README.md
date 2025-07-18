@@ -7,6 +7,8 @@ Este exemplo resolve um problema comum: calcular a média das notas acima de 7 d
 - Recursão para somar os elementos da lista. Foi usada a função `soma_recursiva` para somar os elementos.
 - Funções de alta ordem: `filter`, `map` e `reduce`. A função `filter()` filtra as notas maiores ou iguais a 7.
 
+---
+
 ## Código em Python
 
     from functools import reduce
