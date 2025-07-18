@@ -31,6 +31,7 @@ mae(maria, joana).
 ---
 
 ### Regras
+```
 % Regra: X é filho de Y se Y for pai ou mãe de X
 filho(X, Y) :- pai(Y, X).
 filho(X, Y) :- mae(Y, X).
@@ -39,9 +40,10 @@ filho(X, Y) :- mae(Y, X).
 irmao(X, Y) :- pai(P, X), pai(P, Y), X \= Y.
 
 % Regra: X é avô de Y se ele for pai do pai ou da mãe de Y
-avo(X, Y) :- pai(X, Z), pai(Z, Y).
-avo(X, Y) :- pai(X, Z), mae(Z, Y).
+avô(X, Y) :- pai(X, Z), pai(Z, Y).
+avô(X, Y) :- pai(X, Z), mae(Z, Y).
 
 % Regra: X é avó de Y se ela for mãe do pai ou da mãe de Y
-avoa(X, Y) :- mae(X, Z), pai(Z, Y).
-avoa(X, Y) :- mae(X, Z), mae(Z, Y).
+avó(X, Y) :- mae(X, Z), pai(Z, Y).
+avó(X, Y) :- mae(X, Z), mae(Z, Y).
+```
