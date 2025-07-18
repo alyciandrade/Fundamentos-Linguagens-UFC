@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-color: #F2D5EC;
+    height: 100vh;
+}
+
+.flex-1{
+    padding: 10px 0;
+    display: flex;
+    gap: 230px;
+}
+
+.topo img {
+    width: 240px; 
+    height: 220px; 
+    display: block; 
+    margin-left: 40px;
+}
+
+header h1 {
+    margin-top: 90px; 
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    color: #364E89;
+}
+
+.adicionar h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #C4344C;
+}
+
+.adicionar-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.adicionar{
+    max-width: 500px;
+    margin: 0 auto;
+    color: #C4344C;
+    align-items: center;
+}
+
+.adicionar form {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: 3px solid #556196;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.nome-filme-box input::placeholder { 
+    font-weight: 400;
+    color: #9D8D8D;
+}
+
+.adicionar .nota-estrela {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-top: 5px; 
+}
+
+.adicionar .nota-estrela label {
+    margin-right: 4px; 
+}
+
+label, input[type="text"] {
+    display: block;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #F9EFF2;
+    width: 300px;
+    height: 40px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    font-weight: 400;
+    color: #1B2744;
+}
+
+.botao{
+    margin-top: 40px;
+}
+
+.btn{
+    background-color: #556196;
+    border: none;
+    border-radius: 5px;
+    color: #F9EFF2;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: .2s;
+}
+
+.btn:hover{
+   transform: scale(1.05);
+}
+
+.nota-estrela {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.nota-estrela .estrela {
+    margin-left: 5px;
+    transition: .2s;
+}
+
+.nota-estrela .estrela:hover {
+  
+    color: #ffca2a;
+}
+
+.nota-estrela {
+    direction: rtl;
+}
+
+.nota-estrela .estrela {
+    direction: ltr;
+}
+
+.nota-estrela input[type="radio"] {
+    display: none;
+}
+
+.nota-estrela input[type="radio"] + label {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+.nota-estrela input[type="radio"]:checked ~ label.estrela i::before{
+    color: #ffca2a;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+th, td{
+    border: 3px solid #262f55;
+    padding: 3px;
+    text-align: center;
+}
+
+th.edit, th.delete {
+    width: 100px; 
+    padding: 0 15px; 
+}
+
+th {
+    background-color: transparent;
+}
+
+th.nome-filme, td.nome-filme {
+    max-width: 300px; 
+    word-wrap: break-word; 
+    
+    text-align: center;
+}
+
+.nome-filme {
+    color: #1B2744; 
+    font-weight: 560;
+}
+
+.lista{
+    padding: 20px 5%;
+    color: #C4344C;
+}
+
+.lista h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #C4344C;
+}
+
+.btn-js-edit{
+    color: #5a5a5a;
+    font-size: 27px;
+    border: #F2D5EC;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #F2D5EC;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-js-edit i:hover{
+    transform: scale(1.05);
+}
+
+.btn-js-delete{
+    color: #C4344C;
+    font-size: 27px;
+    border: #F2D5EC;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #F2D5EC;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-js-delete i:hover{
+    transform: scale(1.05);
+}
+
+/*RESPONSIVIDADE*/ 
+
+@media screen and (max-width: 1027px){
+
+    .adicionar{
+        padding: 0 8%;
+    }
+
+    .topo img {
+        width: 120px;
+        height:100px;
+        display: block; 
+        top: 0;
+        margin-left: 0;
+    }
+
+    .flex-1{
+        padding: 10px 0;
+        gap: 15px;
+    }
+
+    header h1 {
+        margin-top: 10px; 
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #364E89;  
+    }
+
+    .adicionar form {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        border: 3px solid #556196;
+        border-radius: 10px;
+    }
+
+    th.nome-filme, td.nome-filme {
+        max-width: none; 
+    }
+
+    .botao{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .btn{
+        padding: 10px 40px;
+    }
+
+    table {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    th.edit, th.delete {
+        width: auto; 
+        padding: 0 8px; 
+    }
+    
+    div#lista{
+        overflow-y: auto;
+        margin: 10px auto;
+    }
+
+}
