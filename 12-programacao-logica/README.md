@@ -28,4 +28,20 @@ mae(ana, maria).
 mae(maria, pedro).
 mae(maria, joana).
 ```
+---
 
+### Regras
+% Regra: X é filho de Y se Y for pai ou mãe de X
+filho(X, Y) :- pai(Y, X).
+filho(X, Y) :- mae(Y, X).
+
+% Regra: X é irmão de Y se compartilham o mesmo pai e não são a mesma pessoa
+irmao(X, Y) :- pai(P, X), pai(P, Y), X \= Y.
+
+% Regra: X é avô de Y se ele for pai do pai ou da mãe de Y
+avo(X, Y) :- pai(X, Z), pai(Z, Y).
+avo(X, Y) :- pai(X, Z), mae(Z, Y).
+
+% Regra: X é avó de Y se ela for mãe do pai ou da mãe de Y
+avoa(X, Y) :- mae(X, Z), pai(Z, Y).
+avoa(X, Y) :- mae(X, Z), mae(Z, Y).
