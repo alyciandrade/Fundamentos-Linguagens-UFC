@@ -13,6 +13,8 @@
 
 **Exemplo:** Abrir dois navegadores diferentes (Chrome e Firefox). Cada um é um processo separado.
 
+---
+
 ### Threads:
 É uma parte de um processo que executa tarefas. Compartilha a memória e os recursos do processo com outras threads do mesmo processo. É usada para fazer várias tarefas ao mesmo tempo dentro de um mesmo programa.
 
