@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!--FIM GOOGLE FONTS-->
+    <title>CineList</title>
+    <!--FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <!--FIM FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="interface">
+        <div class="topo">
+            <div class="flex-1">
+            <img src="images/logo.png" alt="Logo">
+            <h1>GERENCIE OS FILMES QUE ASSISTIU</h1>
+        </div>
+        </div><!--topo-->
+    </div><!--interface-->
+    </header>
+
+    <div class="adicionar">
+        <h2>Adicionar Filme</h2>
+        <div class="adicionar-box">
+            <form id="form-Filme">
+                <div class="nome-filme-box">
+                    <label for="nome">Nome do Filme</label>
+                    <input type="text" id="nome" placeholder="Digite o nome do filme" required>
+                </div><!--nome-filme-->
+                <div class="nota-box">
+                    <label for="nota">Estrelas</label>
+                        <div class="nota-estrela" id="nota">
+                            <input type="radio" name="nota" value="5" id="5"><label class="estrela" for="5"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" name="nota" value="4" id="4"><label class="estrela" for="4"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" name="nota" value="3" id="3"><label class="estrela" for="3"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" name="nota" value="2" id="2"><label class="estrela" for="2"><i class="fa-solid fa-star"></i></label>
+                            <input type="radio" name="nota" value="1" id="1"><label class="estrela" for="1"><i class="fa-solid fa-star"></i></label>
+                        </div>
+                </div><!--nota-box-->
+                <div class="botao">
+                    <button class="btn" type="submit">Adicionar</button>
+                </div><!--botão-->
+            </form>
+        </div><!--fim adicionar-box-->
+    </div> <!--fim adicionar-->
+
+    <div class="lista" id="lista">
+        <h3>Sua Lista</h3>
+            <table id="lista-filme">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Nota</th>
+                        <th class="edit">Editar</th>
+                        <th class="delete">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+    </div><!--fim lista-->
+
+    <script src="script.js"></script>
+</body>
+</html>
