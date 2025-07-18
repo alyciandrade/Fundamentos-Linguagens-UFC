@@ -67,7 +67,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 #### Parâmetros por Valor
   - O código abaixo demonstra que, ao passar um número para uma função, apenas uma cópia do valor é utilizada. Assim, mesmo que a função dobre esse valor internamente, a variável original permanece inalterada:
 
-```java
+```javascript
          function alterarNumero(num) {
            num = num * 2; 
          console.log("Dentro da função 'alterarNumero':", num);
@@ -84,7 +84,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 #### Parâmetros por Referência
 - Neste exemplo, 'adicionarItem' recebe a referência para o array 'minhaLista'. Alterações dentro da função afetam o array original:
 
-```java
+```javascript
        function adicionarItem(lista) {
          lista.push("Uva"); 
        console.log("Dentro da função 'adicionarItem':", lista); 
