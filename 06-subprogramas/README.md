@@ -11,7 +11,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
 #### Parâmetros por Valor
 - A função recebe um número inteiro (N) e retorne a soma dos números naturais e inteiros de 1 à N:
-
+```c
        #include <stdio.h>
 
         int soma(int n){
@@ -35,6 +35,7 @@ Este desafio tem como objetivo implementar funções que demonstrem passagem de 
 
         return 0;
        }
+```
 
 #### Parâmetros por Referência
 - A função abaixo recebe um número e dobra o valor, modificando a variável original:
