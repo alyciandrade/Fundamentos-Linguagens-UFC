@@ -6,7 +6,7 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun√
 ---
 
 ### Fatorial.py
-
+```python
      def fatorial(n):
        print(f"Chamada de fatorial({n})")
 
@@ -21,7 +21,7 @@ Demonstrar e explicar o funcionamento da pilha de chamadas em um exemplo de fun√
      numero = 4
      print(f"\nCalculando o fatorial de {numero}:\n")
      fatorial(numero)
-
+```
 ### Sa√≠da esperada ao rodar o c√≥digo para fatorial(4):
 
     Calculando o fatorial de 4:
