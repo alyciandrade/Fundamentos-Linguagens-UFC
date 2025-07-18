@@ -13,6 +13,8 @@ O gerenciador (chamado de CineList) oferece as seguintes operações CRUD (Creat
 * **Editar Filme (Update)**: Permite modificar o nome e a nota de um filme existente.
 * **Excluir Filme (Delete)**: Remove um filme da lista.
 
+---
+
 ## Como Executar 
 
 1.  Clone este repositório para sua máquina local.
