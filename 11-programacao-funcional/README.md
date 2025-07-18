@@ -11,7 +11,7 @@ Este exemplo resolve um problema comum: calcular a média das notas acima de 7 d
 
 ## Código em Python
 
-```
+```python
 from functools import reduce
 
 notas = [6.5, 8.0, 9.5, 7.0, 5.5, 10.0]
