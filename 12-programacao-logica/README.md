@@ -31,7 +31,7 @@ mae(maria, joana).
 ---
 
 ### Regras
-```
+```prolog
 % Regra: X é filho de Y se Y for pai ou mãe de X
 filho(X, Y) :- pai(Y, X).
 filho(X, Y) :- mae(Y, X).
