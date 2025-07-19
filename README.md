@@ -8,31 +8,31 @@ Este repositório contém os resultados do trabalho prático da disciplina **Fun
 ## Estrutura do Repositório
 O repositório está organizado em pastas, cada uma correspondendo a um dos desafios propostos, conforme a seguir:
 
-1. **01-introducao/**:
+1. **Introdução**:
 Linha do tempo da evolução das linguagens de programação, destacando marcos relevantes.
-2. **02-ambientes/**:
+2. **Ambientes**:
 Diagrama explicativo sobre compiladores, interpretadores e máquinas virtuais.
-3. **03-sintaxe-semantica/**:
+3. **Sintaxe Semântica**:
 Mini-gramática fictícia para uma linguagem inventada, com exemplos de análise léxica.
-4. **04-tipos-de-dados/**:
+4. **Tipos De Dados**:
 Comparativo de tipagem entre três linguagens de programação.
-5. **05-estruturas-de-controle/**:
+5. **Estruturas De Controle**:
 Programa simples utilizando estruturas de seleção, repetição e controle de fluxo.
-6. **06-subprogramas/**:
+6. **Subprogramas**:
 Exemplos de funções com passagem de parâmetros por valor e por referência.
-7. **07-implementacao-subprogramas/**:
+7. **Implementação De Subprogramas**:
 Exemplo recursivo com ilustração da pilha de chamadas.
-8. **08-orientacao-objetos/**:
+8. **Programação Orientada a Objetos**:
 Modelagem de hierarquia de classes em um domínio escolhido.
-9. **09-concorrencia/**:
+9. **Concorrência**:
 Exemplo de concorrência, comparando threads e processos.
-10. **10-gerenciamento-memoria/**:
+10. **Gerenciamento De Memória**:
 Quadro comparativo sobre gerenciamento de memória em duas linguagens distintas.
-11. **11-programacao-funcional/**:
+11. **Programação Funcional**:
 Solução funcional com recursão e funções de alta ordem.
-12. **12-programacao-logica/**:
+12. **Programação Lógica**:
 Modelagem de um problema lógico usando sintaxe inspirada em Prolog.
-13. **13-scripts-web/**:
+13. **Scripts Web**:
 Script de automação ou manipulação de dados em linguagem de script.
-14. **14-tendencias/**:
+14. **Tendências**:
 Análise crítica sobre uma linguagem de programação emergente.
