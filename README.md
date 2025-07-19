@@ -1,7 +1,7 @@
 # Trabalho de Fundamentos de Linguagens de Programação 
 
 ## Objetivo Geral
-Este repositório contém os resultados do trabalho prático da disciplina **Fundamentos de Linguagens de Programação** e tem como objetivo explorar os 14 tópicos fundamentais das linguagens de programação através de desafios práticos, análises comparativas e implementações em diversas linguagens.
+Este repositório contém os resultados do trabalho prático da disciplina de **Linguagens de Programação** e tem como objetivo explorar os 14 tópicos fundamentais das linguagens de programação através de desafios práticos, análises comparativas e implementações em diversas linguagens.
 
 ---
 
