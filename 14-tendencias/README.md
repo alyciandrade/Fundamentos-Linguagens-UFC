@@ -6,19 +6,19 @@ A linguagem **Go** nasceu em 2007, fruto da necessidade do Google de ter uma lin
 ---
 
 ## Principais Características
-- Simplicidade e Facilidade:
+- **Simplicidade e Facilidade:**
 Go possui uma sintaxe simples e direta, com poucas palavras-chave, facilitando o aprendizado e a manutenção do código.
-- Concorrência Nativa:
+- **Concorrência Nativa:**
 Goroutines(threads leves) e canais permitem que Go lide com tarefas concorrentes de forma eficiente e leve, ideal para sistemas que precisam de alta taxa de transferência.
-- Compilação Rápida:
+- **Compilação Rápida:**
 Go é uma linguagem compilada, gerando executáveis nativos que são rápidos e eficientes. O compilador é conhecido por sua velocidade e capacidade de detectar erros em tempo de compilação.
-- Multiplataforma:
+- **Multiplataforma:**
 Go permite compilar código para diferentes sistemas operacionais e arquiteturas, facilitando o desenvolvimento multiplataforma.
-- Garbage Collection:
+- **Garbage Collection:**
 Go possui um coletor de lixo que gerencia a memória automaticamente, liberando o desenvolvedor dessa tarefa.
-- Tipagem Estática:
+- **Tipagem Estática:**
 Go é uma linguagem tipada estaticamente, o que significa que os tipos de dados são verificados em tempo de compilação, ajudando a evitar erros em tempo de execução.
-- Modularidade:
+- **Modularidade:**
 Go possui um sistema de pacotes que facilita a organização do código e a reutilização de componentes.
 
 ---
